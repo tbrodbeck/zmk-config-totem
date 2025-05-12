@@ -34,13 +34,6 @@
             timeout-ms = <70>;
         };
 
-        tilde_combo {
-            bindings = <&kp TILDE>;
-            key-positions = <0 20>;
-            timeout-ms = <60>;
-            require-prior-idle-ms = <100>;
-        };
-
         enter_combo {
             bindings = <&kp ENTER>;
             key-positions = <13 12 11>;
