@@ -57,6 +57,11 @@
             bindings = <&kp TILDE>;
             key-positions = <24 25>;
         };
+
+        layer2 {
+            bindings = <&mo 2>;
+            key-positions = <34 35>;
+        };
     };
 
     behaviors {
@@ -152,10 +157,10 @@
         nav_layer {
             label = "NAVI";
             bindings = <
-        &kp GRAVE      &kp TILDE       &kp UP          &kp PLUS         &kp LBRC    &kp RBRC    &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp EQUAL
-        &kp BACKSPACE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LBKT    &kp RBKT    &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp MINUS
-&trans  &trans         &kp BACKSLASH   &kp APOS        &kp PERIOD       &kp LPAR    &kp RPAR    &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY  &kp DELETE
-                                       &trans          &trans           &mo 2       &kp PERIOD  &kp KP_N0  &kp SLASH
+        &kp GRAVE        &kp TILDE       &kp UP          &kp PLUS         &kp LBRC    &kp RBRC  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp EQUAL
+        &kp KP_MULTIPLY  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LBKT    &kp RBKT  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp MINUS
+&trans  &trans           &kp BACKSLASH   &kp APOS        &kp PERIOD       &kp LPAR    &kp RPAR  &kp KP_N1  &kp KP_N2  &kp KP_N3  &trans     &kp DELETE
+                                         &trans          &trans           &mo 2       &mo 2     &kp KP_N0  &kp SLASH
             >;
         };
 
