@@ -17,34 +17,11 @@
             require-prior-idle-ms = <120>;
         };
 
-        dash {
-            bindings = <&kp MINUS>;
-            key-positions = <19 31>;
-            timeout-ms = <70>;
-        };
-
-        enter_combo {
-            bindings = <&kp TAB>;
-            key-positions = <13 12 11>;
-            timeout-ms = <70>;
-            require-prior-idle-ms = <100>;
-        };
-
         enter_right_combo {
             bindings = <&kp ENTER>;
             key-positions = <16 18 17>;
             timeout-ms = <70>;
             require-prior-idle-ms = <100>;
-        };
-
-        tab_hold {
-            bindings = <&kp TAB>;
-            key-positions = <20 0>;
-        };
-
-        Tilde {
-            bindings = <&kp TILDE>;
-            key-positions = <24 25>;
         };
 
         layer2 {
@@ -69,10 +46,10 @@
         nav_layer {
             label = "SPECIAL";
             bindings = <
-        &kp GRAVE  &kp EQUAL       &kp UP          &kp BACKSLASH    &trans      &trans     &kp N7  &kp N8        &kp N9  &kp N0
-        &kp ESC    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LBKT    &kp RBKT   &kp N4  &kp NUMBER_5  &kp N6  &kp MINUS
-&trans  &trans     &kp DOT         &kp APOS        &kp SLASH        &kp TAB     &kp ENTER  &kp N1  &kp N2        &kp N3  &trans     &kp DELETE
-                                   &trans          &trans           &mo 2       &mo 2      &trans  &trans
+        &kp GRAVE  &kp EQUAL       &kp UP          &kp BACKSLASH    &kp TAB      &kp TAB    &kp N7  &kp N8        &kp N9  &kp N0
+        &kp ESC    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LBKT     &kp RBKT   &kp N4  &kp NUMBER_5  &kp N6  &kp MINUS
+&trans  &trans     &kp DOT         &kp APOS        &kp SLASH        &kp ENTER    &kp ENTER  &kp N1  &kp N2        &kp N3  &trans     &kp DELETE
+                                   &trans          &trans           &mo 2        &mo 2      &trans  &trans
             >;
         };
 
